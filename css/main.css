@@ -2645,3 +2645,9 @@ footer .copyright span:last-child::after {
 .folio-item {
 	margin-bottom: 10px;
 }
+#idea1Logo {
+	width: 56px;
+    display: inline;
+    vertical-align: middle;
+    padding-right: 9px;
+}
