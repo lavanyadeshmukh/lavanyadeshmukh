@@ -1119,8 +1119,8 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+	background: url("../images/logo.png") no-repeat left;
+    background-size: 60px 20px;
 }
 
 /**
@@ -1419,6 +1419,11 @@ header .logo a {
 	color: #cc005f;
 }
 
+#contact .intro-social {
+	position: relative;
+	margin: 0px auto;
+	margin-top: 30px;
+}
 /**
  * responsive:
  * Intro
@@ -1511,10 +1516,12 @@ header .logo a {
 	float: left;
 }
 .intro-info .lead {
-	text-align: left;
-	padding-left: 13rem;
+	text-align: center;
+	/*padding-left: 13rem;*/
 }
-
+.section-title {
+	color: #FF0077;
+}
 .about-content {
 	position: relative;
 	text-align: left;
@@ -1798,6 +1805,7 @@ header .logo a {
 	padding: 0;
 	position: relative;
 	overflow: hidden;
+	height: 240px;
 }
 #portfolio .folio-item img {
 	vertical-align: middle;
@@ -1903,6 +1911,8 @@ header .logo a {
 }
 .popup-modal img {
 	vertical-align: bottom;
+	margin: 0px auto;
+    display: block;
 }
 .popup-modal .description-box {
 	padding: 1.8rem 3.6rem 3rem;
@@ -1958,6 +1968,10 @@ header .logo a {
 .popup-modal .link-box a:hover {
 	background: #cc005f;
 	border: none;
+}
+.popup-modal .description-box p {
+	font-family: "lora-regular", serif;
+    font-size: 1.7rem;
 }
 @media only screen and (max-width:600px) {
 	.popup-modal {
@@ -2254,7 +2268,7 @@ header .logo a {
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
-#contact .section-intro h1 {
+#contact .section-intro h3 {
 	color: white;
 }
 #contact .section-intro h5 {
@@ -2600,4 +2614,34 @@ footer .copyright span:last-child::after {
 
 .timeline-header h4 {
 	color: #555;
+}/*
+.folio-item:nth-child(1) .item-wrap {
+	height: 640px;
+	background-color: teal;
+}
+.folio-item:nth-child(2) .item-wrap {
+	height: 368px;
+	background-color: steelblue;
+}
+.folio-item:nth-child(3) .item-wrap {
+	height: 550px;
+	background-color: red;
+}
+.folio-item:nth-child(4) .item-wrap {
+	height: 550px;
+	background-color: yellow;
+}
+.folio-item:nth-child(5) .item-wrap {
+	height: 687px;
+	background-color: green;
+}
+.folio-item:nth-child(6) .item-wrap {
+	height: 550px;
+}*/
+.folio-item img {
+	margin: 0px auto;
+	display: block;
+}
+.folio-item {
+	margin-bottom: 10px;
 }
